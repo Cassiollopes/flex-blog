@@ -1,1 +1,134 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito',Arial, Helvetica, sans-serif;
+    color: #222222;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+/*superinfo*/
+
+.superinfo-bg{
+    background: #122ab2;
+    color: white;
+}
+
+.superinfo a{
+    color: white;
+}
+
+.superinfo{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.superinfo a, .superinfo p{
+    margin: 0px 10px 10px 10px;
+}
+
+/*menu*/
+
+.menu-bg{
+    background: #2c70ff;
+}
+
+.menu a{
+    color: white;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: 0px auto;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+.menu-logo{
+    font-size: 2.25em;
+    font-weight: bold;
+    margin: 0px 10px;
+}
+
+.menu-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-nav a{
+    font-size: 1.25em;
+    display: block;
+    padding: 10px;
+}
+
+.menu-nav a:hover{
+    color: #122ab2;
+    transition-duration: 0.7s;
+}
+
+/*introducao*/
+
+.introducao{
+    max-width: 960px;
+    margin: 0 auto;
+    font-size: 3em;
+    line-height: 1;
+    padding: 60px 10px;
+}
+
+/*sobre*/
+
+.sobre{
+    border-top: 2px solid #2c70ff;
+    border-bottom: 2px solid #2c70ff;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobre-info{
+    flex: 2 1 300px;
+    margin: 0px 10px;
+}
+
+.sobre-info h1{
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+
+.sobre-info p{
+    font-size: 1.25em;
+    line-height: 1.4em;
+    margin-bottom: 1em;
+}
+
+.sobre-img{
+    flex: 1 1 160px;
+    margin: 0px 10px;
+}
