@@ -152,6 +152,8 @@ header{
 
 .dropdown_menu .action_bnt{
     margin: .7rem;
+    width: 100%;
+    text-align: center;
 }
 
 @media(max-width: 670px){
