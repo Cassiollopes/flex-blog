@@ -108,7 +108,7 @@ header{
 .toggle_bnt{
     display: none;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     cursor: pointer;
 }
 
@@ -119,8 +119,8 @@ header{
     right: 2rem;
     width: 200px;
     height: 0px;
-    background-color: #2c6fffc4;
-    backdrop-filter: blur(10px);
+    background-color: #2c6fffc2;
+    backdrop-filter: blur(15px);
     border-radius: 10px;
     transition: height 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     overflow: hidden;
@@ -215,4 +215,46 @@ header{
 .sobre-img{
     flex: 1 1 160px;
     margin: 0px 10px;
+}
+
+/*produtos*/
+
+.produtos{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.produtos h1{
+    font-size: 3rem;
+    padding: 60px 10px;
+}
+
+.produtos-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.produtos-item{
+    flex: 1 1 175px;
+    margin: 10px;
+}
+
+.produtos-item h2{
+    font-size: 3rem;
+    color: #a4a4a4;
+    background-color: #f7f7f7;
+    padding: 60px 20px;
+}
+
+.purple{
+    border-top: 8px solid #ae81ff;
+}
+
+.pink{
+    border-top: 8px solid #f9265e;
+}
+
+.blue{
+    border-top: 8px solid #66d9ed;
 }
