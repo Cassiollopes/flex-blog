@@ -33,11 +33,11 @@ img{
 
 .superinfo-bg{
     background: #122ab2;
-    color: white;
 }
 
-.superinfo a{
-    color: white;
+.superinfo a, .superinfo p{
+    font-size: min(2vw, .7rem);
+    color: rgba(255, 255, 255, 0.641);
 }
 
 .superinfo{
